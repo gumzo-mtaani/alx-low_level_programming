@@ -1,6 +1,6 @@
 /*
  * File: 5-printf.c
- * Auth: John M. Ngatia
+ * Auth: John Mugo Ngatia
  */
 
 #include <stdio.h>

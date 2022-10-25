@@ -15,11 +15,10 @@ int main(void)
 
 	int x;
 
-	while (x >= 0 && x < 10)
-	{
+	for (x = 0; x < 10; x++)
 		printf("%d", x);
-		x++;
-	}
+
+	printf("\n");
 
 	return (0);
 

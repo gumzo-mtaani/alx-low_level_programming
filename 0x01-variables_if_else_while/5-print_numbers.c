@@ -20,7 +20,7 @@ int main(void)
 		printf("%d", x);
 		x++;
 	}
-	
+
 	return (0);
 
 

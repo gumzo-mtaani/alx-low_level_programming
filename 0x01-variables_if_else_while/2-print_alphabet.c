@@ -15,11 +15,10 @@
 int main(void)
 
 {
+	char x;
 
-	for (int x = 'A'; x <= 'Z'; x++)
-	{
-		int lower_x = tolower(x);
-		putchar(lower_x);
-	}
+	for (x = 'a'; x <= 'z'; x++)
+		putchar(x);
+		putchar('\n');
 
 }

@@ -20,7 +20,7 @@ int main(void)
 	/*My code starts*/
 	if (n > 0)
 	{
-		printf("You entered %d which is a postive number\n",n); 
+		printf("%d is postive\n",n); 
 	}
 	else if (n < 0)
 	{

@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
-/*
+/* main - Determine if generated random number is positive, negative or zero
  * Auth: John Ngatia
  * File Name: 0x01-variables_if_else_while
  *
- * main - Determine if the number is positive, zero or negative
+ * main - Determine if a random number is positive, zero or negative
  *
  * return (0) on success
  */

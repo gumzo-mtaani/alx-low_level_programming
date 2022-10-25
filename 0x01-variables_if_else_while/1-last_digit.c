@@ -3,11 +3,8 @@
 #include <time.h>
 
 /**
- * File Name: 0x01-variables_if_else_while
- * Auth: John M. Ngatia
+ * main - Entry point
  *
- *
- * main - Picks last digit of random number
  * Description: Determines if last number is greater than 5, is zero
  * 	or is less than 6 and not 0
  *

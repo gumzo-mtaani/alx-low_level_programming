@@ -8,8 +8,8 @@
  *
  *
  * main - Picks last digit of random number
- * 	and checks if it is greater than 5,
- * 	is equal to zero or is less than 6 and not 0
+ * Description: Determines if last number is greater than 5, is zero
+ * 	or is less than 6 and not 0
  *
  * Return: Always 0 (Success)
  */
@@ -23,7 +23,7 @@ int main(void)
 	/* My code begins*/
 	if (n % 10 > 5)
 	{
-		printf("Last digit is %d and is greater than 5\n", n); 
+		printf("Last digit of %d is %d and is greater than 5\n", n); 
 	}	
 	return (0);
 

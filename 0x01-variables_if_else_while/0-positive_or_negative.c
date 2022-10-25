@@ -24,10 +24,10 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("You entered %d which is a negative number\n",n);	
+		printf("%d is negative\n",n);	
 	}
 	else
-		printf("You entered %d which is zero\n",n);
+		printf("%d is zero\n",n);
 	return (0);
 }
 

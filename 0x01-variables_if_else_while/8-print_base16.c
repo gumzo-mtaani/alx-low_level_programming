@@ -14,15 +14,21 @@
 int main(void)
 {
 
-	int num;
-	char alphabet;
+	int i = '0';
 
-	/* for the numbers 0 through 9 */
-	for (num = 0; num <= 0; num++)
-		putchar((num % 10) + '0');
+	while (i <= '9')
+	{
+		putchar(i);
+		i++;
+	}
 
-	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
-		putchar(alphabet);
+	i = 'a';
+
+	while (i <= 'f')
+	{
+		putchar(i);
+		i++
+	}
 
 	putchar('\n');
 

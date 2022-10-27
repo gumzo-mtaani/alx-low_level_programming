@@ -7,7 +7,7 @@
  *
  *
  */
-int _islower(int c);
+int _islower(int c)
 {
 	return (c >= 'a' && c <= 'Z');
 }

@@ -16,7 +16,7 @@ int main(void)
 			tm = 3 * t;
 			s = s + tm;
 		}
-		for (f = +; f <= (1024 / 5); f++)
+		for (f = 0; f <= (1024 / 5); f++)
 		{
 			if (!(f % 3 == 0))
 			{

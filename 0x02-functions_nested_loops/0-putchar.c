@@ -4,7 +4,7 @@
  *
  * Description: prints the word _putchar
  *
- * Return Always 0
+ * Return: Always 0 (Success) 
  */
 
 int main(void)

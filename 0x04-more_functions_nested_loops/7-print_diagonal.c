@@ -4,22 +4,25 @@
  * @n: character to be input for diagonals
  */
 
+
 void print_diagonal(int n)
 {
-	int x, i;
-
-	if (x <= 0)
-		_putchar('\n');
-	else
+	int a, b;
+	
+	if (n > 0)
 	{
-		for (x = 0; x < n; x++)
+		for (a = 0 ; a < n ; a++)
 		{
-			for (i = 0; i <= x; i++)
+			for (b = 0 ; b < a ; b++)
+			{
 				_putchar(' ');
+			}
 			_putchar(92);
 			_putchar('\n');
 		}
+	}
+	else
+	{
 		_putchar('\n');
 	}
-
 }

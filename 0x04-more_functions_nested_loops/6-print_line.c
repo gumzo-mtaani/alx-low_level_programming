@@ -8,9 +8,9 @@
 void print_line(int n)
 {
 
-	int n;
+	int x;
 
-	if (n <= 0)
+	if (x <= 0)
 	{
 		_putchar('\n');
 	}

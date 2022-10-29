@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 
 /**
  * print_array - print n times elements of an array

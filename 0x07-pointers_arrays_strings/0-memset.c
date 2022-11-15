@@ -9,7 +9,7 @@
  *
  * Return: pointer to beginning of memory
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 

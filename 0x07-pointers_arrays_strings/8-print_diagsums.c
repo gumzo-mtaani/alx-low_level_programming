@@ -24,5 +24,5 @@ void print_diagsums(int *a, int size)
 			(i + j == size - 1) ? d2 += a[k] : 0;
 			k++;
 		}
-	printf("%i,%i\n", d1, d2);
+	_putchar("%i,%i\n", d1, d2);
 }

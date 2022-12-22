@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- * main . function to print file name
+ * main - Entry point
  * @argc: argument count
  * @argv: array of pointers to strings
+ * Return: 0 on success
  */
 
 

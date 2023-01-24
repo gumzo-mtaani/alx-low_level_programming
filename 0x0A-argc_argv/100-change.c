@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
   * main - function to print out the change I need
@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 	}
 
 
-	change = atoi(argv[i]);
+	change = atoi(argv[1]);
 
 	for (total = 0; change > 0; total++)
 	{

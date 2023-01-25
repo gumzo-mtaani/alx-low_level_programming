@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * create_array - Entry point
+ * main - Entry point
  * @size: array size
  * @c: special character
  * Return: pointer to array or NULL on fail
@@ -11,32 +11,25 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *array = NULL;
-	unsigned int i;
 
-	i = 0;
 	
 	if (size == 0)
 	{
 		return (NULL);	
 	}
-		
-	else
+	
+	char *array = (char *) malloc(sizeof(char) * size);
+	
+	if (array == NULL)
 	{
-		array = malloc(sizeof(char) * size);
-		if (array != NULL)
-		{
-			return (NULL);
-		}
-		else
-		{
-			while (i < size)
-			{
-				array[i] = c;
-				i++;
-			}
-		}
-	return (array);
+		return (NULL);
 	}
+	
+	for (unsigned int i = 0; i < size; i++)
+	{
+		array[i] = c;
+	}
+	
+	return (array);
 
 }

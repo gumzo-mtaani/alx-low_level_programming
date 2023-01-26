@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _strlen - give the length of a string
  * @s: the string
@@ -13,7 +13,7 @@ int _strlen(char *s)
 		;
 	return (i);
 }
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 /**

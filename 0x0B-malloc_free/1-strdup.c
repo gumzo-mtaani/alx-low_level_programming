@@ -49,6 +49,6 @@ char *_strdup(char *str)
 			copy[i] = str[i];
 		}
 	}
-	copy[i] = NULL;
+	copy[i] = 0;
 	return (copy);
 }

@@ -19,22 +19,17 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	else
-	{
-		array = malloc(sizeof(char) * size);
+	array = malloc(sizeof(char) * size);
 
-		if (array == NULL)
-		{
-			return (NULL);
-		}
-		else
-		{
-			while (i < size)
-			{
-				array[i] = c;
-				i++;
-			}
-		}
-	return (array);
+	if (array == NULL)
+	{
+		return (NULL);
 	}
+
+	for (i = 0; i < size; i++)
+	{
+		array[i] = c;
+	}
+
+	return (array);
 }

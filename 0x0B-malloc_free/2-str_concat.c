@@ -72,9 +72,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		space = malloc(sizeof(char) * length + 1);
 
-		if (space == '\0')
+		if (space == NULL)
 		{
-			return ('\0');
+			return (NULL);
 		}
 		else
 		{

@@ -1,3 +1,1 @@
-O(n)
-O(n^2)
-O(n^2)
+This is the readme file for the Sorting Algorithms project
